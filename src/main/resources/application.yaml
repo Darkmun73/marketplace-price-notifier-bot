@@ -1,3 +1,5 @@
 spring:
   application:
     name: MarketplacePriceNotifierBot
+bot:
+  token: ${BOT_TOKEN}

@@ -28,7 +28,7 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     //.env file support
-    implementation(platform("me.paulschwarz:spring-dotenv-bom:5.1.0"))
+    developmentOnly(platform("me.paulschwarz:spring-dotenv-bom:5.1.0"))
     developmentOnly("me.paulschwarz:springboot4-dotenv")
 }
 

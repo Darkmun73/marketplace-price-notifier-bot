@@ -8,6 +8,9 @@ group = "io.github.darkmun"
 version = "0.0.1-SNAPSHOT"
 description = "MarketplacePriceNotifierBot"
 
+extra["jackson.version"] = "2.22.4"
+
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(25)
